@@ -62,6 +62,7 @@ class TiketKonserSesudah extends Ticket implements Operational {
         System.out.println("Jumlah Tiket: " + jumlah);
         System.out.println("Total (termasuk pajak): Rp" + total);
         System.out.println("terima kasih");
+        System.out.println();
     }
 
     //Refactoring 3: Inline Variable
